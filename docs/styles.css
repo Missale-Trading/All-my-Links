@@ -74,6 +74,12 @@ h1 {
   height: 60px;
 }
 
+.call-icon:hover {
+  cursor: pointer;
+  transform: scale(1.4);
+  transition: cubic-bezier(0.215, 0.610, 0.355, 1) 0.2s;
+}
+
 a {
   text-decoration: none;
   color: rgb(240, 240, 240);
